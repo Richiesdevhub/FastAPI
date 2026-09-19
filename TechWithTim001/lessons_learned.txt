@@ -1,8 +1,10 @@
-instalar uv
-inicializar archivo con uv init -nombre del proyecto- o uv init . 
+Instalar uv
+Inicializar archivo con uv init -nombre del proyecto- o uv init . 
 para un proyecto existente
-post
+Si agregas librerias es con uv add -nombre de la libreria-
+Cuando corras el archivo, usas uv run -nombre del archivo- y así uv se encarga
+ de manejar todas sus dependencias
+Hacer post
+Entender path parameters y query parameters, fastapi ya te da una manera para lidiar con ellos
 schemas.py para body para definir el tipo de datos que queremos aceptar en nuestros modelos
-Seguimiento de error, batalle un poco que le dí: El error era que en el vidoe trataba
-a los elementos de text_posts como números y yo como strings
-Nos quedamos en la creacion de db.py, algo asi como min 48
+

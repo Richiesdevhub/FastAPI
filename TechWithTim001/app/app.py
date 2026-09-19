@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from app.schemas import PostCreate, PostResponse
 
+
 app = FastAPI()
 
 text_posts={1: {"title": "Post 1", "content": "Content of post 1"},
