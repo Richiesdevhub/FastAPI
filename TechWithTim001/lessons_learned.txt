@@ -1,1 +1,8 @@
-
+instalar uv
+inicializar archivo con uv init -nombre del proyecto- o uv init . 
+para un proyecto existente
+post
+schemas.py para body para definir el tipo de datos que queremos aceptar en nuestros modelos
+Seguimiento de error, batalle un poco que le dí: El error era que en el vidoe trataba
+a los elementos de text_posts como números y yo como strings
+Nos quedamos en la creacion de db.py, algo asi como min 48
