@@ -14,12 +14,10 @@ class Base(DeclarativeBase):
 class Post(Base):
     __tablename__ = "posts"
     id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
-    Caption=Column(Text)
+    caption=Column(Text)
     url=Column(String, nullable=False)
     file_type=Column(String, nullable=False)
-    file_name=Column(String, nullable=False)
-    title = Column(String(100), nullable=False)
-    content = Column(Text, nullable=False)
+    file_name=Column( String, nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)
     # created_at = Column(DateTime, server_default=func.now())
     # updated_at = Column(DateTime, onupdate=func.now())
