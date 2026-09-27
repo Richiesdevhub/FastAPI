@@ -8,4 +8,4 @@ Hacer post
 Entender path parameters y query parameters, fastapi ya te da una manera para lidiar con ellos
 schemas.py para body para definir el tipo de datos que queremos aceptar en nuestros modelos
 Como crear la base de datos y tablas asi como los modelos para la base de datos
-
+Post y get, muy dificil de entender ahora por el tema session, pero poco a poco.
