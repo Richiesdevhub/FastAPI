@@ -1,0 +1,15 @@
+[project]
+name = "techwithtim-fullstack-farm-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[all]>=0.142.4",
+    "langchain>=1.4.3",
+    "langchain-openai>=1.6.7",
+    "psycopg2-binary>=2.9.13",
+    "python-dotenv>=1.2.4",
+    "sqlalchemy>=2.1.4",
+    "uvicorn>=0.54.0",
+]
